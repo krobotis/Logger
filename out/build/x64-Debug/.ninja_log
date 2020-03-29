@@ -1,0 +1,9 @@
+# ninja log v5
+3	381	607177779	CMakeFiles/Logger_example.dir/examples/main.obj	606277c5687fcd37
+0	431	607177779	CMakeFiles/Logger.dir/src/Logger.obj	3e877b7e09ef01d7
+432	465	607177779	Logger.lib	3be9fa1ebfcee7f1
+465	751	607177779	Logger_example.exe	1977d3db743276db
+3	373	607177956	CMakeFiles/Logger_example.dir/examples/main.obj	606277c5687fcd37
+0	431	607177956	CMakeFiles/Logger.dir/src/Logger.obj	3e877b7e09ef01d7
+431	460	607177956	Logger.lib	3be9fa1ebfcee7f1
+460	602	607177956	Logger_example.exe	1977d3db743276db
