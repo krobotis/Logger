@@ -341,4 +341,4 @@ healthchecksdb
 /CMakeSettings.json
 
 # Visual Studio 19 build folder
-# out
+out
