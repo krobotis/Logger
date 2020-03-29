@@ -340,5 +340,5 @@ ASALocalRun/
 healthchecksdb
 /CMakeSettings.json
 
-# CMake build folder
-out
+# Visual Studio 19 build folder
+# out
