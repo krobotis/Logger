@@ -1,6 +1,6 @@
 #include <logger/Logger.h>
 
-using namespace logger;
+using namespace logging;
 
 int main()
 {

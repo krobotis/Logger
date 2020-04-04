@@ -8,7 +8,7 @@
 #include <ostream>		// for std::ostream
 #include <memory>		// for std::shared_ptr
 
-namespace logger {
+namespace logging {
 
 enum class LogLevel
 {
@@ -53,7 +53,7 @@ private:
 	std::string m_name;
 };
 
-} // namespace logger
+} // namespace logging
 
 #endif // LOGGER_H
 

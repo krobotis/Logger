@@ -4,7 +4,7 @@
 #include <mutex>
 #include <stdexcept>	// for std::invalid_argument
 
-namespace logger {
+namespace logging {
 namespace {
 	std::mutex coutMutex;
 }
@@ -44,4 +44,4 @@ LogProxy Logger::operator<<(const LogLevel& level)
 	return LogProxy(m_name, level);
 }
 
-} // namespace logger
+} // namespace logging
