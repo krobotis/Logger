@@ -5,6 +5,7 @@
 
 #include <string>
 #include <sstream>		// for std::ostringstream
+#include <ostream>		// for std::ostream
 #include <memory>		// for std::shared_ptr
 
 namespace logger {
@@ -26,6 +27,14 @@ public:
 	{
 		*m_ostream << rhs;
 
+		return *this;
+	}
+
+	// Output operator for I/O manipulators.
+	LogProxy& operator<<(std::ostream& (*var)(std::ostream&))
+	{
+		*m_ostream << var;
+		
 		return *this;
 	}
 
