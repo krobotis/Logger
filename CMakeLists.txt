@@ -2,6 +2,9 @@
 
 project(Logger)
 
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
 add_library(Logger STATIC
     include/logger/Logger.h
 	src/Logger.cpp
